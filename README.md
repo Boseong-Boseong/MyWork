@@ -1,7 +1,7 @@
 # MyWork
 [SSD1322_OLED_library-master](https://github.com/wjklimek1/SSD1322_OLED_library) 오픈 소스를 활용한 OLED 국문/영문 출력 예제입니다.
 
-# Discription
+# Description
 한글을 포함한 비트맵 폰트를 이용하여 문자를 출력하는 예제입니다. [SSD1322_OLED_library-master](https://github.com/wjklimek1/SSD1322_OLED_library)에서 제공하는 API library, GFX library를 기반으로 작성되었습니다.
 
 미리 입력해둔 문구들이 순차적으로 반복되어 OLED 패널에 표시되는 동작을 수행하고, 국문/영문 및 기본적인 특수문자 등을 출력할 수 있습니다.
