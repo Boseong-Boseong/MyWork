@@ -11,7 +11,7 @@ ST사의 SoC를 이용하여 OLED 모듈과 SPI를 통해 통신합니다. 이 �
 모듈에 따라 지원하는 SPI 모드 설정 등은 사용 환경에 맞추어야 하고, 이 모듈에서는 모드 3(CPOL = 1, CPHA = 1)을 사용했습니다.
 
 ## Preparation
-이 코드에서 동작시키기 위해서는 아래 구성이 준비되어야 합니다.
+본 예제를 통해 OLED 모듈을 동작시키기 위해서는 아래 구성이 준비되어야 합니다.
 1. STM32F446xC/E MCU 준비.
 2. IAR WorkBench IDE 또는 STM32CubeIDE. (여기서는 IAR WorkBench를 사용했습니다.)
 3. IAR Compiler 또는 평가판.
@@ -21,10 +21,10 @@ ST사의 SoC를 이용하여 OLED 모듈과 SPI를 통해 통신합니다. 이 �
 ## Example Result
 • 영문 + 한글 조합 문자를 출력
 
-<img src="https://github.com/Boseong-Boseong/MyWork/assets/70252590/54be611a-69a4-46ce-9847-6ece49d4cb89"  width="600">
-<img src="https://github.com/Boseong-Boseong/MyWork/assets/70252590/db18f5b0-b34b-4777-abb4-5f9633de24cb"  width="600">
-<img src="https://github.com/Boseong-Boseong/MyWork/assets/70252590/d69d4ad0-5967-4f5d-b589-50e38941b7ff"  width="600">
-<img src="https://github.com/Boseong-Boseong/MyWork/assets/70252590/2a9a63d4-18be-43fa-9150-e837cb792fd3"  width="600">
+<img src="https://github.com/Boseong-Boseong/myWork/assets/70252590/c904d552-83dd-4d47-96b7-d2a799a37c85"  width="600">
+<img src="https://github.com/Boseong-Boseong/myWork/assets/70252590/6c64c33b-1fa1-439e-aa4b-f6d304326946"  width="600">
+<img src="https://github.com/Boseong-Boseong/myWork/assets/70252590/77e2eb80-bd18-4a23-8aee-1c06bd50e1e3"  width="600">
+<img src="https://github.com/Boseong-Boseong/myWork/assets/70252590/da72d65b-351c-4381-8a76-f211e3fb2881"  width="600">
 
 ## Creating a bitmap font for Korean/English
 한글 폰트 제작은 Adafruit-GFX-Library-master 오픈 소스에서 제공하는 fontconvert를 사용했습니다.
