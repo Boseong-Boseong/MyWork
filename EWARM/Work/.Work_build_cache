@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BuildDb>
+    <Tool>
+        <Name>linker</Name>
+        <Parent>
+            <Path>D:\boseong\Work\EWARM\Work\Exe\Work.out</Path>
+            <Output>
+                <Path>D:\boseong\Work\EWARM\Work\List\Work.map</Path>
+            </Output>
+        </Parent>
+    </Tool>
+</BuildDb>
