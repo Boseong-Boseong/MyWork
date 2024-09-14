@@ -51,7 +51,7 @@ make
 원하는 .ttf 폰트를 ../Adafruit-GFX-Library-master/fontconvert 경로에 다운로드하고 아래 명령어를 실행합니다.
 
 ```
-./my_font.ttf 16 44032 55203 > my_font.c
+./fontconvert my_font.ttf 16 44032 55203 > my_font.c
 ```
 위 코드에서 16은 글씨 크기를, 44032(0xAC00)는 첫 글자 코드, 55203(0xD7A3)은 마지막 글자 코드를 의미하고, 0xAC000부터 0xD7A3까지의 폰트를 생성하는 명령어입니다. 여기서는 가(0xAC00)부터 힣(0xD7A3)을 생성합니다.
 
